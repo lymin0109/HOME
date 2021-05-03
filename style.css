@@ -357,7 +357,7 @@ h7 {
   width:100%;
   display: flex;
   margin: 49px auto;
-  height:427px;
+
   height: auto;  
   max-height: 100%;
 }
