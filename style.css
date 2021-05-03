@@ -354,12 +354,11 @@ h7 {
 
 
 .service {
-  width:1280px;
+  width:100%;
   display: flex;
   flex-wrap: wrap;
   margin: 49px auto;
   height:427px;
-  max-width: 100%;
   height: auto;  
   max-height: 100%;
 }
