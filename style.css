@@ -54,16 +54,6 @@ a {
   padding: 8px 12px;
 }
 
-.navbar__menu li:{
-  background-color: white;
-}
-
-@media (hover: hover) {
-	.navbar__menu li:hover {
-  background-color: #00887A;
-  border-radius: 4px;}
-}
-
 .navbar__icons {
   list-style: none;
   color: #005666;
