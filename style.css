@@ -356,7 +356,7 @@ h7 {
 .service {
   width:100%;
   display: flex;
-  margin: 49px auto;
+  margin:auto;
 
   height: auto;  
 }
@@ -384,7 +384,7 @@ h7 {
 .main_text2 {
   width:100%;
   height: auto;
-  margin-top:100px;
+  margin-top:20px;
   background-image: url("image/contact.png");
   word-break: keep-all;
 }
