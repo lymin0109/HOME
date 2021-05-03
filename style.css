@@ -100,7 +100,7 @@ a {
 }
 
 /* For small screen */
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   /* Nav container */
   .navbar {
     flex-direction: column;
