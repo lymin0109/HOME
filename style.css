@@ -356,7 +356,6 @@ h7 {
 .service {
   width:100%;
   display: flex;
-  flex-wrap: wrap;
   margin: 49px auto;
   height:427px;
   height: auto;  
