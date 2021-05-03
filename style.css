@@ -331,26 +331,7 @@ h7 {
 
 /* main_text1*/
 
-.main_text1{
-  width: 100%;
-  height:580px auto;
-  /* margin-top:-132px; */
-  /* background: #2F7AF4 */
-}
-.main_text1 > h1{
-  padding-top:50px;
-  text-align: center;
-}
-.main_text1 > .service > .contents2 {
-  text-align: center;
-  word-break: keep-all;
-}
 
-
-.contents1 {
-  text-align: center;
-  word-break: keep-all;
-}
 
 
 
