@@ -359,7 +359,6 @@ h7 {
   margin: 49px auto;
 
   height: auto;  
-  max-height: 100%;
 }
 
 
@@ -367,7 +366,6 @@ h7 {
   flex: 1;
   background: white;
   margin-top:20px;
-  height:302px;
   text-align: center;
   word-break: keep-all;
   height:auto;
