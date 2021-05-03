@@ -54,7 +54,7 @@ a {
   padding: 8px 12px;
 }
 
-.navbar__menu li:hover {
+.navbar__menu li:(hover: hover) {
   background-color: #00887A;
   border-radius: 4px;
 }
