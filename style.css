@@ -353,31 +353,6 @@ h7 {
 }
 
 
-.service {
-  width:100%;
-  display: flex;
-  margin:auto;
-
-  height: auto;  
-}
-
-
-.service > li {
-  flex: 1;
-  background: white;
-  margin-top:20px;
-  text-align: center;
-  word-break: keep-all;
-  height:auto;
-}
-
-.service > .contents2 {
-  padding: 20px;
-}
-
-.service > .contents2 > h2{
-  margin-bottom: 27px;
-}
 
 
 /* main_text2 */
