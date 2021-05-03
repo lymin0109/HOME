@@ -363,10 +363,6 @@ h7 {
   max-height: 100%;
 }
 
-iframe {
-  width:90%;
-  margin: auto;
-}
 
 .service > li {
   flex: 1;
