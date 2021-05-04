@@ -515,5 +515,12 @@ img {
     align-items: center;
   }
 
+  .service {
+    width:100%; height:auto;
+  }
+  
+  .service > li {
+    width:100%; height:auto;
+  }
 
 }
