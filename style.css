@@ -371,7 +371,7 @@ iframe {
   color: #fff;
   cursor: pointer;
   margin:0px auto;
-  margin-right: 100px auto;
+  margin-right: auto;
 }
 
 .more3{
@@ -382,7 +382,7 @@ iframe {
   color: #fff;
   cursor: pointer;
   margin:70px auto;
-  margin-right: 100px auto;
+  margin-right: auto;
   margin-left:20px;
 }
 
@@ -527,5 +527,8 @@ img {
     width:100%; height:auto;
   }
   
+    .icons {
+    width:100%; height:auto;
+  }
   
 }
