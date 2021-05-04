@@ -54,6 +54,10 @@ a {
   padding: 8px 12px;
 }
 
+.navbar__menu li:hover {
+  background-color: #00887A;
+  border-radius: 4px;
+}
 .navbar__icons {
   list-style: none;
   color: #005666;
@@ -94,63 +98,6 @@ a {
   text-align: center;
   word-break: keep-all;
 }
-
-/* For small screen */
-@media all and (max-width: 576px) {
-  /* Nav container */
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 8px 24px;
-  }
-
-  /* Menu */
-  .navbar__menu {
-    display: none;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-  }
-
-  .navbar__menu a {
-    /* Fill in an entire line so that user can click on any space */
-    display: block;
-  }
-
-  /* Icons */
-  .navbar__icons {
-    display: none;
-    justify-content: center;
-    width: 100%;
-  }
-
-  /* Toggle button */
-  .navbar__toggleBtn {
-    display: block;
-  }
-
-  /* When toggle button is clicked - active state */
-  .navbar__menu.active,
-  .navbar__icons.active {
-    display: flex;
-  }
-
-  .main_text0 {
-    width:100%;
-    height:1500px;
-    margin-top:-132px;
-    background: #f1f2f3;
-  }
-
-  .main_text0 > .icons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-}
-
-
 
 *{
   font-family: 'Noto Sans KR', sans-serif;
@@ -203,7 +150,7 @@ h6 {
 }
 
 .header{
-  width:100%;
+  width:1280px;
   margin:auto;
   display:flex;
   height: 86px;
@@ -253,7 +200,7 @@ h6 {
   position: relative;
   top:-66px;
   display: flex;
-  width:100%;
+  width:1280px;
   background: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin: auto;
@@ -292,7 +239,7 @@ h7 {
 
 .icons{
   display: flex;
-  width:100%;
+  width:1280px;
   height:302px;
   /* background: orange; */
   margin: auto;
@@ -331,16 +278,69 @@ h7 {
 
 /* main_text1*/
 
+.main_text1{
+  width: 100%;
+  height:580px auto;
+  /* margin-top:-132px; */
+  /* background: #2F7AF4 */
+}
+.main_text1 > h1{
+  padding-top:50px;
+  text-align: center;
+}
+.main_text1 > .service > .contents2 {
+  text-align: center;
+  word-break: keep-all;
+}
 
 
+.contents1 {
+  text-align: center;
+  word-break: keep-all;
+}
 
+
+.service {
+  width:1280px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 49px auto;
+  height:427px;
+  max-width: 100%;
+  height: auto;  
+  max-height: 100%;
+}
+
+iframe {
+  width:90%;
+  margin: auto;
+}
+
+.service > li {
+  flex: 1;
+  background: white;
+  margin-top:20px;
+  height:302px;
+  text-align: center;
+  word-break: keep-all;
+  min-width:400px;
+  height:auto;
+}
+
+.service > .contents2 {
+  padding: 20px;
+}
+
+.service > .contents2 > h2{
+  margin-bottom: 27px;
+}
 
 
 /* main_text2 */
 .main_text2 {
   width:100%;
   height: auto;
-  margin-top:20px;
+  margin-top:100px;
   background-image: url("image/contact.png");
   word-break: keep-all;
 }
@@ -410,3 +410,110 @@ img {
 }
 
 
+
+.btn{
+  text-decoration:none;
+  font-size:18px;
+  background-color:#005666;
+  color:white;
+  padding:10px 20px 10px 20px;
+  display:inline-block;
+  border-radius: 10px;
+  transition:all 0.1s;
+  border-bottom:5px solid #024d5a81;
+  text-shadow: 0px -2px black; 
+  margin-bottom:10px;
+
+}
+
+.btn:active{
+  transform: translateY(10px);
+  border-bottom:2px solid #024d5a81;
+}
+
+.more2{
+  background-color:#006666;
+  display:inline-block;
+  border-radius: 10px;
+  transition:all 0.1s;
+  border-bottom:5px solid #024d5a81;
+  text-shadow: 0px -2px black; 
+  margin-bottom:20px;
+
+}
+
+.more2:active{
+  transform: translateY(10px);
+  border-bottom:2px solid #024d5a81;
+}
+
+.more3{
+  background-color:#006666;
+  display:inline-block;
+  border-radius: 10px;
+  transition:all 0.1s;
+  border-bottom:5px solid #024d5a81;
+  text-shadow: 0px -2px black; 
+  margin-bottom:20px;
+
+}
+
+.more3:active{
+  transform: translateY(10px);
+  border-bottom:2px solid #024d5a81;
+}
+
+/* For small screen */
+@media screen and (max-width: 1220px) {
+  /* Nav container */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  /* Menu */
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar__menu a {
+    /* Fill in an entire line so that user can click on any space */
+    display: block;
+  }
+
+  /* Icons */
+  .navbar__icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Toggle button */
+  .navbar__toggleBtn {
+    display: block;
+  }
+
+  /* When toggle button is clicked - active state */
+  .navbar__menu.active,
+  .navbar__icons.active {
+    display: flex;
+  }
+
+  .main_text0 {
+    width:100%;
+    height:1500px;
+    margin-top:-132px;
+    background: #f1f2f3;
+  }
+
+  .main_text0 > .icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
